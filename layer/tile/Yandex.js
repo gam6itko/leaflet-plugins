@@ -4,7 +4,7 @@
 //(function (ymaps, L) {
 
 L.Yandex = L.Layer.extend({
-    includes: L.Mixin.Events,
+    includes: L.Evented,
 
     options: {
         minZoom: 0,
